@@ -2,8 +2,8 @@ name: Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+    - cron: "0 */12 * * *" # Runs every 12 hours
+  workflow_dispatch: # Allows manual trigger
 
 jobs:
   generate-snake:
@@ -16,12 +16,20 @@ jobs:
     - name: Generate snake SVG
       uses: platane/snk@v3
       with:
-        github_user: 'pree-tisingh'  # Your GitHub username
-        svg_out: 'github-contribution-grid-snake.svg'
+        github_user_name: 'pree-tisingh'  # Your GitHub username
+        github_token: ${{ secrets.GITHUB_TOKEN }}  # Use GitHub's built-in token for authentication
+        outputs: |
+          svg=github-contribution-grid-snake.svg
+          png=github-contribution-grid-snake.png
 
-        png_out: 'github-contribution-grid-snake.png'  
-        color_snake: '#5f1f70'  # Customize snake color (optional)
-        color_grid: '#ffffff'  # Customize grid color (optional)
+    - name: Check if SVG file exists
+      run: |
+        if [ -f github-contribution-grid-snake.svg ]; then
+          echo "SVG file exists."
+        else
+          echo "SVG file does not exist."
+          exit 1
+        fi
 
     - name: Commit and push if there are changes
       run: |
