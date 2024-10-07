@@ -122,7 +122,7 @@
 
 ---
 ### 🐍 Contribution Snake
-![GitHub Snake](https://github.com/preeti-singh/preeti-singh/blob/output/github-contribution-grid-snake.svg)
+![GitHub Snake](https://google.com/imgres?q=github-contribution-grid-snake.svg&imgurl=https%3A%2F%2Fuser-images.githubusercontent.com%2F78317220%2F190580600-edd928b9-0191-4b8a-b1f5-b74fd09a5df4.gif&imgrefurl=https%3A%2F%2Fgithub.com%2Fsudoshivesh%2Fsnake-eating-contribution-graph&docid=PQPK5EqAip82-M&tbnid=kslY4JuCPeVtTM&vet=12ahUKEwjC8dHlh_yIAxX5fGwGHZbGFHYQM3oECBMQAA..i&w=880&h=206&hcb=2&ved=2ahUKEwjC8dHlh_yIAxX5fGwGHZbGFHYQM3oECBMQAA)
 
 ---
 
