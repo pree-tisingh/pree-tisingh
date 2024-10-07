@@ -16,10 +16,10 @@ jobs:
     - name: Generate snake SVG
       uses: platane/snk@v3
       with:
-        github_user: 'preeti-singh'  # Your GitHub username
+        github_user: 'pree-tisingh'  # Your GitHub username
         svg_out: 'github-contribution-grid-snake.svg'
 
-        png_out: 'github-contribution-grid-snake.png'  # Optional PNG output
+        png_out: 'github-contribution-grid-snake.png'  
         color_snake: '#5f1f70'  # Customize snake color (optional)
         color_grid: '#ffffff'  # Customize grid color (optional)
 
