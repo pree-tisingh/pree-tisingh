@@ -16,7 +16,7 @@ jobs:
     - name: Generate snake SVG
       uses: platane/snk@v3
       with:
-        github_user_name: 'pree-tisingh'  # Your GitHub username
+        github_user_name: 'pree-tisingh'  # Make sure this is your GitHub username
         github_token: ${{ secrets.GITHUB_TOKEN }}  # Use GitHub's built-in token for authentication
         outputs: |
           svg=github-contribution-grid-snake.svg
