@@ -17,7 +17,8 @@ jobs:
       uses: platane/snk@v3
       with:
         github_user: 'preeti-singh'  # Your GitHub username
-        svg_out: 'github-contribution-grid-snake.svg'  # Output file name
+        svg_out: 'github-contribution-grid-snake.svg'
+
         png_out: 'github-contribution-grid-snake.png'  # Optional PNG output
         color_snake: '#5f1f70'  # Customize snake color (optional)
         color_grid: '#ffffff'  # Customize grid color (optional)
