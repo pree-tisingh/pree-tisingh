@@ -127,7 +127,7 @@
 
 ### 📈 Most Used Languages:
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=preeti-singh&layout=compact&theme=radical" alt="Most Used Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pree-tisingh&layout=compact&theme=radical" alt="Most Used Languages" />
 </p>
 
 ---
